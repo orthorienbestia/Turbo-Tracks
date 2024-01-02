@@ -1,0 +1,27 @@
+1. Game Concept
+●   Title - “Turbo Tracks:”
+●    Genre - 3D Kart Racing
+
+2. Gameplay
+●    Core Mechanics
+○    Create the game targeting mobile devices tablets-
+iOS (iPhone/iPad) or Android(phone/tablet).
+○   Acceleration : Touch system to accelerate and decelerate the car
+○    Direction : Use Gyroscope to steer the cat left and right.
+○    Power-Ups: Collect and use power-ups strategically to gain advantages or hinder opponents.
+○   AI/Bot - Simple AI Kart opponent - the ai kart will be in ghost mode(Won't collide with the user kart)
+○    Customization: Add functionality to customize karts with different paint jobs. This should be done on the home screen where the user is able to change and equip the color of the car before starting the race.
+○    Race Complete Pop Up
+●    Objectives
+○   Win Races: On completion of 3 laps, the user should successfully complete the race. Lap count should be visible in the UI.
+○    Optionally make the lap count dynamic which can be set at the beginning of the race.
+○    Collect Power-Ups: Utilize power-ups strategically to gain an edge over opponents. Powerups auto trigger on collection
+○    Collect Coins - Collect coins which spawn on the track. Each Laps creates new sets/patterns of coins.
+●    Power-Ups(Any1)
+○   Turbo Boost: Provides a burst of speed.
+○    Magnet : Collects Coins
+●   Tracks(Asset Provided)
+○    Simple Oval track
+●   Particle effects -
+○          1.Simple Trail from the Kart
+○          2.Collectible particles
