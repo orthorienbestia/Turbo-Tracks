@@ -1,6 +1,8 @@
+*DoNotShip*
 Library
 obj
 Logs
 Temp
 *.csproj
 *.sln
+*.apk

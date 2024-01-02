@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // ReSharper disable once CheckNamespace
-namespace Assignment.UtilityScripts
+namespace _Project.Scripts.Utility
 {
     /// <summary>
     /// Class helps to debug by logging text from editor.

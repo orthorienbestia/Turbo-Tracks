@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Random = UnityEngine.Random;
 
 // ReSharper disable once CheckNamespace
-namespace Assignment.UtilityScripts
+namespace _Project.Scripts.Utility
 {
     public static class ListExtensions
     {
