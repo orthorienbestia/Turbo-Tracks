@@ -3,6 +3,7 @@ Library
 obj
 Logs
 Temp
+.DS_Store
 *.csproj
 *.sln
 *.apk
