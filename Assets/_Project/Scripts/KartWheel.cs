@@ -19,13 +19,15 @@ namespace _Project.Scripts
         public void Move(float movementInput, float topSpeed)
         {
             wheelCollider.motorTorque = movementInput * topSpeed * 750 * Time.deltaTime;
+            // Reduce motor torque when kart is turning.
+            wheelCollider.motorTorque *= 1 - Mathf.Abs(wheelCollider.steerAngle) / 30;
         }
 
         public void Turn(float turnInput, float turnSensitivity, float maxTurnAngle)
         {
             if (wheelType != KartWheelType.Front) return;
             var turnAngle = turnInput * turnSensitivity * maxTurnAngle;
-            wheelCollider.steerAngle = Mathf.Lerp(wheelCollider.steerAngle, turnAngle, 0.6f);
+            wheelCollider.steerAngle = Mathf.Lerp(wheelCollider.steerAngle, turnAngle, Time.deltaTime*2);
         }
 
         public void Brake(bool isBrakePressed)
@@ -36,7 +38,7 @@ namespace _Project.Scripts
             }
             else
             {
-                wheelCollider.brakeTorque = 0f;
+                wheelCollider.brakeTorque = 0;
             }
         }
 

@@ -18,11 +18,12 @@ namespace _Project.Scripts
 
         public float turnSensitivity = 1f;
         public float maxTurnAngle = 30f;
-
+        
+        public Vector3 centerOfMass;
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
-            _rigidbody.centerOfMass = Vector3.zero;
+            _rigidbody.centerOfMass = centerOfMass;
         }
 
         private void Update()
