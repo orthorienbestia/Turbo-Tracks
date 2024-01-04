@@ -1,0 +1,3505 @@
+fileFormatVersion: 2
+guid: 98dabfcf9960842b5afbedd677136ac4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 689
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf9768e44742419ea696fa61471bea5
+      internalID: -1266949389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 682
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d823717cb6b4307b78d7c5fa3309ce
+      internalID: 144390500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 682
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e04243a8a2b49dbb00befe8a06b94d
+      internalID: 1680772982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_8
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 682
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933a5e35fed947ee96c6e66e32c9adf
+      internalID: 628447127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 689
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fa2c61fe80e45739b890d4a1cb26c6
+      internalID: 683842015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_11
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 682
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ade65a7dfc9f46a9971483ea6da8c5f
+      internalID: -1035760751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_13
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 689
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47be72de997a54cbfbd165ef3f23a617
+      internalID: -338633317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_16
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 689
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340653c0cc4be47ce9622ea596aa1958
+      internalID: 1190195034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_17
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 689
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c5b123ee8a49aaa6b1604676410ff
+      internalID: -1990172639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_18
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 682
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656ee6a10787944aeacdd07c77d694fb
+      internalID: -567868247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_20
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 689
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3a9ec526c10430e91ea4209c7011d6
+      internalID: 1431446081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_21
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 682
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2e59d508b5c4adf954a8c4376c98bb
+      internalID: -227409162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_22
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 682
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97379a6fb6aa24b4fa045d4f67eb0cd3
+      internalID: -1825685253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_24
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 410
+        width: 222
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73ebdb0ef41541f09c33ebacc31fe8d
+      internalID: 1959131906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_25
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 682
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2257f8df31344497094c53f8ffd58474
+      internalID: -2001881501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_26
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 682
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183f2b5ce1456459ea15b125feb08eb7
+      internalID: 494789026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_27
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 682
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06ab8568cd2a4fa8ab49ed7fb62e509
+      internalID: -1708871034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_28
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 674
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d5a4c47e5b48c89c9e062f02e43dc
+      internalID: 1556500989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_29
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 373
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffad3fa19ba4b259944dfe84680d12
+      internalID: 265154901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_30
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 682
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdfabd3a833a429688166ab61e70842
+      internalID: 22404045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_31
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 674
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee72845d79954458985229273ca3f04f
+      internalID: -633726738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_33
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 682
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8d6caed49324925b74a613d26297d2
+      internalID: 400780194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_35
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 674
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2001215cbab97439eabcaca6cabf6f92
+      internalID: -368299626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_36
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 674
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887e51e5c5414f1c90d811c2b700a70
+      internalID: 1473092638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_37
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 674
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa61a5c50c2814c49b759c6255a5f386
+      internalID: -242523724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_38
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 677
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94cae7ce28034ad786947dd625b10f2
+      internalID: 1411799028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_39
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 667
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2858bcced85fb4f4fa437b055b728e4c
+      internalID: 1275061653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_40
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 667
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c83329b124a94255bb8a50d81518676
+      internalID: 2059579664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 667
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd2910f704c04a208fbae5f26cf196f
+      internalID: 1838998077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 667
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5d715f9ae74b85b160261f4ec322a
+      internalID: -1281009568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_44
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 671
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe1de1e093444a9699e7c6ea8e6afff
+      internalID: -1138524798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_45
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 660
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36946ddaff3c74b0180a87cd2d56af7d
+      internalID: 1243135764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_46
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 652
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3336c6fd21195479caedaf4244d29439
+      internalID: -1851458779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_48
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 667
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790882e2485bd47f3a4d6d22263ffd53
+      internalID: -25885093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_49
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 405
+        width: 233
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09505226c0e417eb40e240d340f285
+      internalID: -176063559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_50
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 667
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdbc1418cc094c6993828847d234491
+      internalID: -1848404469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_51
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 660
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439ccedca152446328a18747dc6c38f4
+      internalID: 182176495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_53
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 406
+        width: 228
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfe8038704464fa99fd64f150db7a39
+      internalID: 723397747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_55
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 403
+        width: 179
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc59946f809f4355ae5d0ea57dc73ff
+      internalID: 1787261326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_56
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 407
+        width: 231
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f6580caf9f043e18edde7a3700cbaf
+      internalID: -212587878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_59
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 630
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11dc5b67f37140b58e330400e9ca30b
+      internalID: 728810578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_60
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 409
+        width: 234
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04816e3ae047d485baf732a9b38fa5bd
+      internalID: 459168009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_61
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 572
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af45d0c148dfc4f38a141f0d5f2da6af
+      internalID: -1855430770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_63
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 387
+        width: 224
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedbe7ceed1d44628b1114d35264db44
+      internalID: 203037199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_64
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 645
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58fc429f3b974827af6fbf998fd33ce
+      internalID: -12663755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_65
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 410
+        width: 222
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4f54594192c4d77b48eb9fed7f07f3
+      internalID: 1340973131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_66
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 645
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ea926ea8b394801bf2e5cb2900f66b
+      internalID: -1964881010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_67
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 403
+        width: 245
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7102aa37ed54ccfb07fa7603003fe4
+      internalID: 384823152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_68
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 630
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572452e56524f4adfa9cb563e3c43c2d
+      internalID: 2117063171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dddfb28001aa4e5a8004fa87ff07c69
+      internalID: -2062481201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_70
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 623
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03a59c25891e471082b442e0e23214f
+      internalID: 1756268348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_71
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 616
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89981b1a6d8614ffda70dcac6fa0fd61
+      internalID: -1324354301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_72
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 608
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74ea780a9ce84defbedf98972abcd17
+      internalID: -1510963908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_73
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 608
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844c86df4aa6c413eabdf406b217db55
+      internalID: 445480173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_75
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 601
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d16ffb085cf433c80e21ce0b1776ba
+      internalID: -1853656950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_76
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 601
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084ac30ed5158441681d6f8e48e9663d
+      internalID: -837815280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_78
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc0dff2b6784f61ae068069b26ab03
+      internalID: -540137789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_79
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 557
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb74df973204cb18aa7bec575880ed
+      internalID: 1972581617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_80
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 557
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484e7726f1cf1444097855d4e3b880e3
+      internalID: -1270918066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_81
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 538
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d917cbb374dc14a5b8132ce1e77195dd
+      internalID: 1462074776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_82
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 557
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ef686142db4e56b75358c75f42433
+      internalID: 1257641979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_83
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 577
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac16a3b428754c198cdcdce9f4558aa
+      internalID: 553658155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_85
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 542
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b142c33771c6b459f963b7123faa555d
+      internalID: 205140334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_86
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 520
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20b8ed2b4c1342c2857b7f3b3971f45
+      internalID: -1558601130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_87
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 528
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcabbb06aa63469f939e551f4881ec6
+      internalID: -925395454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_88
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 520
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0b9f743fe774d859103f775770a3cf
+      internalID: -971279322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_89
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 506
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0542c4092b1d2426983998f766e90165
+      internalID: 1312157940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_90
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 520
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14853707d55426193e8aed75fe487b
+      internalID: -762010058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_91
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 513
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8a2c124e5542028937a08ae9735fa
+      internalID: 752951915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_92
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 506
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2b615a2618c4b35be58963b3709cf9
+      internalID: 1042534236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_93
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 498
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaecd9ca55fe04e4fb45b4d5c6b18276
+      internalID: -2076619999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_94
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 498
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a41d2da284413ca03e6ce394d88a6
+      internalID: 2132691316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 496
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52012efc8cdc1442596d5649d3b7133b
+      internalID: -1447552728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_96
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 388
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eafee7ded1454353b093b1a93097f23
+      internalID: 1564807033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_97
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 469
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133db75369c374341a26473269adcaf2
+      internalID: -175162748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_98
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 403
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45335a3293833434ebf3ccb697a25754
+      internalID: -771871501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_99
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 462
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45087d9911b74e62bb45e4362b11828
+      internalID: -2048384754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_101
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 445
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29beb722c62274d239cd8153b02f9a9a
+      internalID: -1235505728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_102
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 456
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af165b801966466da2b78cc5ae289a3
+      internalID: 901229509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_103
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 454
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7b015f4e164e329eafc0901fefbcd
+      internalID: -67628875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_104
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 432
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8685307d233b74b13832d693453e46e1
+      internalID: 392301314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_105
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 432
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572033dd702ce4169bef4875a8d848b8
+      internalID: 397632450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_107
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 446
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6469fceb7fea148f1bbfcc74cef5ce71
+      internalID: 753470023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_111
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 402
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80ffc167bed4f85b21de7bbf032d6f
+      internalID: 2076916261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_112
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 403
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc4f0b75b9194329aa481d851f6d66d
+      internalID: -2080379866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_113
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 403
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982fec33461a3417d9a568f0a85ff777
+      internalID: 1017438714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_114
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 388
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc7ca8decb78487f951a9965abb1920
+      internalID: 1769400192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_119
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 388
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc13fa2e88ed42deb517c1086b19020
+      internalID: 1152753147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_122
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 396
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc54d4e5ffcc54a49970e17738117602
+      internalID: -311284774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_124
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 406
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af72de61e674b30b1349e2c22bde4d
+      internalID: 1644092231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_125
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 396
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc388f986795f41809850e15437291c9
+      internalID: 457519175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_126
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 395
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68c2b55fc4e452e92b5828c14210c4
+      internalID: 222412135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_127
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 398
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec258fcc3dc6844c099353d8760cfaa9
+      internalID: -1379787892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_128
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 398
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c736335ce3fb414c94244eff74ac7c8
+      internalID: -782142575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_129
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 395
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a087624a55a491a8110cf28951cfcb
+      internalID: 920907789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_130
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 387
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeeaf5be559f4b53b06225ae9283966
+      internalID: 755771190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_131
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 388
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4bb0c2968c43e19300eaacf25172b
+      internalID: 1881595922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_132
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef86d5a58f6e8420381cd7fc8161dc64
+      internalID: 2029468994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_133
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 384
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22221aa8536824cddaac388c5e48a4a1
+      internalID: 2046684902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_134
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 386
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218cddb19818649bd878137147afaf82
+      internalID: -758738072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_135
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 392
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c9d5605ce4d4aad8bc78539c91f96f
+      internalID: -1658161778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_136
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 387
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273362519b5c541d1833ab28acc8074f
+      internalID: 102673275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_137
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 387
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97fdf6185b0a40f6bfb36c5688ae4a0
+      internalID: 439549352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_138
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 389
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b24ad5011245dd955fd8b46f4af97
+      internalID: -478882014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_139
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e57aa6437c42ac895e36eaf19a354
+      internalID: -775816029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_140
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cc6f1f2088a46bdb930566e4dd32da
+      internalID: 594260285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_141
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 384
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559716432ccb242e8bee0deb7070b657
+      internalID: -1156234862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_142
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 380
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df320189b0dd2469ab07885ead619397
+      internalID: -224175499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_143
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 384
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85af31c1f418a46eaa37b8428ff5cddd
+      internalID: -1434458109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_144
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 384
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e768a583dad66449d8116aa13af61968
+      internalID: -416860308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_145
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 380
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d27c757c6697423f9f2c311a26d03bf
+      internalID: -1561791042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_146
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 380
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bd261f179f74096a0d624ae290f7e7
+      internalID: 1636562383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_147
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22016833c0b84e929f45bb07ce866cb
+      internalID: -594139574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_148
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7a2dc848884a34a0b723622f006b3
+      internalID: -1298520225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_149
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1548b0a1b2702475d9ae80c14a4470ab
+      internalID: 1465377365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_150
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 379
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c4dbf69e25140ca96dd381a677379e
+      internalID: 2146239158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_151
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 382
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db802631babfb411f9496a642a6d8b08
+      internalID: 183699412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_152
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32818dd23882243959b7bb32ca14813a
+      internalID: -1914571374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_153
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dfa555776af4ef08c0c4a50bea137a
+      internalID: -523860509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_154
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf545d424e941e0a189fb2453a7856
+      internalID: -1693143894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_155
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4509215892f5d49adba9a99b98b73d71
+      internalID: 2063882440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_156
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 376
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a817131a2384248418c68537a58f7ebb
+      internalID: -1901585667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_157
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 329
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ebb6c33cd8049e8a0f55abc63d303f
+      internalID: -547278503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_159
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 323
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03baa3a5b9787440f8125233715e6bb2
+      internalID: 2030946213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_160
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 308
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b233b2531ed9a430da4627459be04feb
+      internalID: 750555107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_161
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 315
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672c56bc3a094978b29946077304fc9
+      internalID: -1832472982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_162
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 21
+        width: 239
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cde354ba2cc4902b5e92ee6207a074
+      internalID: -1921175224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_163
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 293
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa079b21df99745e8bde917e40120880
+      internalID: -852692843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_164
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a806e997ebc4bc5a72b9089600f760
+      internalID: 1915686750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_165
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 279
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b67f7a561b4612af6e22c0a83531e
+      internalID: 1501156850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_166
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 286
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06628bf5e83642faaac4154e055947a
+      internalID: -2021076568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_167
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 50
+        width: 223
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6078a8d8182742a39076b2ac61b1754
+      internalID: -2008332430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_168
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 271
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d73783ce19342d5b4388195ec08602
+      internalID: -1944916333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_169
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 279
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b431cd912ac040a8aff684e9e32c4eb
+      internalID: -652315174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_170
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 257
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4399601c680944a39335b60aad90372
+      internalID: -1053334021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_171
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 235
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb259c7c2ff6453e8bc508bcd6fed1d
+      internalID: 1461131198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_172
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d980bdb6644f41c89caea7d39d94c1e
+      internalID: -2041543492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_173
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 242
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b99696725221410e930b914fff4c142
+      internalID: 1566904765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_174
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 219
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0482f558934f4781fb3308825d9d4
+      internalID: -635250496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_175
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 205
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119f6ba5624be42779fede8b3b319f5b
+      internalID: -1881405292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_176
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 191
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d643d8711a714087b30da92d2f4d189
+      internalID: 1136643874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_177
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 139
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e68f62d4944612976953a3ff77139
+      internalID: 2037302878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_178
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 147
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a224be077bfd74d41aec3bacc4988e6a
+      internalID: -1720427464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_179
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 130
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115b09425f3f746dfa6e24a867380365
+      internalID: -425875042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_180
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 40
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0424f94517cec4f19bd4829d950f804a
+      internalID: -964768371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_181
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 42
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9400e8c7b304c7db2a6492e317b146
+      internalID: 1997286435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_182
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 51
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a9e13587fb4fa28a7ba11ccd7ad7e
+      internalID: 797917981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_183
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 59
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a07a9e7d487b41da8a6f1e1bb996bdd
+      internalID: -1374198684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_184
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a274a56cb64abe8a12c949e07a722
+      internalID: 1802715430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_185
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 11
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d281824d4ce44038143802724e0ec4
+      internalID: -2082211093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_186
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 11
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291c51011476f44bf890507ee8cfc383
+      internalID: 1237912707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6df2f99ce80414afa94f6630c34b33fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_0: -1587368681
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_1: -296297989
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_10: 683842015
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_100: 828437126
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_101: -1235505728
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_102: 901229509
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_103: -67628875
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_104: 392301314
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_105: 397632450
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_106: -395597492
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_107: 753470023
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_108: 1805028718
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_109: -1689681188
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_11: -1035760751
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_110: -1661285178
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_111: 2076916261
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_112: -2080379866
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_113: 1017438714
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_114: 1769400192
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_115: 251869876
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_116: 1579158778
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_117: 1518558353
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_118: -415224128
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_119: 1152753147
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_12: 1774530090
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_120: 47321297
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_121: 390477985
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_122: -311284774
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_123: 1294794056
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_124: 1644092231
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_125: 457519175
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_126: 222412135
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_127: -1379787892
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_128: -782142575
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_129: 920907789
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_13: -338633317
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_130: 755771190
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_131: 1881595922
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_132: 2029468994
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_133: 2046684902
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_134: -758738072
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_135: -1658161778
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_136: 102673275
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_137: 439549352
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_138: -478882014
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_139: -775816029
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_14: 471430315
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_140: 594260285
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_141: -1156234862
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_142: -224175499
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_143: -1434458109
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_144: -416860308
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_145: -1561791042
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_146: 1636562383
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_147: -594139574
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_148: -1298520225
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_149: 1465377365
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_15: -1835769928
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_150: 2146239158
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_151: 183699412
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_152: -1914571374
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_153: -523860509
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_154: -1693143894
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_155: 2063882440
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_156: -1901585667
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_157: -547278503
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_158: 1184805917
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_159: 2030946213
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_16: 1190195034
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_160: 750555107
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_161: -1832472982
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_162: -1921175224
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_163: -852692843
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_164: 1915686750
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_165: 1501156850
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_166: -2021076568
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_167: -2008332430
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_168: -1944916333
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_169: -652315174
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_17: -1990172639
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_170: -1053334021
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_171: 1461131198
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_172: -2041543492
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_173: 1566904765
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_174: -635250496
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_175: -1881405292
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_176: 1136643874
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_177: 2037302878
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_178: -1720427464
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_179: -425875042
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_18: -567868247
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_180: -964768371
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_181: 1997286435
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_182: 797917981
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_183: -1374198684
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_184: 1802715430
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_185: -2082211093
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_186: 1237912707
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_19: 642684483
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_2: -1266949389
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_20: 1431446081
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_21: -227409162
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_22: -1825685253
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_23: -1382291889
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_24: 1959131906
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_25: -2001881501
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_26: 494789026
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_27: -1708871034
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_28: 1556500989
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_29: 265154901
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_3: 144390500
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_30: 22404045
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_31: -633726738
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_32: 1325488516
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_33: 400780194
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_34: 1103161831
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_35: -368299626
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_36: 1473092638
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_37: -242523724
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_38: 1411799028
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_39: 1275061653
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_4: 1849207044
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_40: 2059579664
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_41: 1838998077
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_42: -1281009568
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_43: -895487745
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_44: -1138524798
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_45: 1243135764
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_46: -1851458779
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_47: 1449642723
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_48: -25885093
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_49: -176063559
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_5: -1078993814
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_50: -1848404469
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_51: 182176495
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_52: -216889652
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_53: 723397747
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_54: -527540127
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_55: 1787261326
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_56: -212587878
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_57: 2076068526
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_58: -1565223175
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_59: 728810578
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_6: 2093127555
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_60: 459168009
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_61: -1855430770
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_62: 723837677
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_63: 203037199
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_64: -12663755
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_65: 1340973131
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_66: -1964881010
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_67: 384823152
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_68: 2117063171
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_69: -2062481201
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_7: 1680772982
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_70: 1756268348
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_71: -1324354301
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_72: -1510963908
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_73: 445480173
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_74: 1076493432
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_75: -1853656950
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_76: -837815280
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_77: 894197000
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_78: -540137789
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_79: 1972581617
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_8: 628447127
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_80: -1270918066
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_81: 1462074776
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_82: 1257641979
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_83: 553658155
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_84: -948069202
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_85: 205140334
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_86: -1558601130
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_87: -925395454
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_88: -971279322
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_89: 1312157940
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_9: -1932423908
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_90: -762010058
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_91: 752951915
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_92: 1042534236
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_93: -2076619999
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_94: 2132691316
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_95: -1447552728
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_96: 1564807033
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_97: -175162748
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_98: -771871501
+      super_mario_3d_land___hd_numbers_by_melonspeedruns_dc61eby_99: -2048384754
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
