@@ -8,6 +8,7 @@ namespace _Project.Scripts.Collectables
         {
             // TODO: Implement Coin
             var kartMovementController = other.GetComponent<KartMovementController>();
+            kartMovementController.CollectCoin(this);
         }
     }
 }

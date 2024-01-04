@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using _Project.Scripts.Collectables;
 using UnityEngine;
 
 namespace _Project.Scripts
@@ -13,6 +14,7 @@ namespace _Project.Scripts
         public float BrakeDeceleration => brakeDeceleration;
 
         [SerializeField] private List<KartWheel> wheels;
+        [SerializeField] private ParticleSystem coinCollectEffect;
 
         private Rigidbody _rigidbody;
         private float _movementInput;
@@ -145,6 +147,11 @@ namespace _Project.Scripts
             
             Debug.Log("Acceleration: "+ Input.acceleration);
             _turnInput = Mathf.Abs(Input.acceleration.x) <0.2f ? 0 : Input.acceleration.x * 0.5f;
+        }
+
+        public void CollectCoin(Coin coin)
+        {
+            coinCollectEffect.Play();
         }
     }
 }
