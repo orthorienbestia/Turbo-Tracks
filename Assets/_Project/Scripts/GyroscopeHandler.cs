@@ -11,6 +11,7 @@ namespace _Project.Scripts
     {
         private bool _gyroscopeSupported;
         public static event Action<Vector3> OnGyroscopeUpdate;
+
         private void Awake()
         {
             _gyroscopeSupported = SystemInfo.supportsGyroscope;
@@ -34,6 +35,19 @@ namespace _Project.Scripts
             {
                 OnGyroscopeUpdate?.Invoke(Input.gyro.attitude.eulerAngles);
             }
+        }
+
+
+        public static float GetTilt()
+        {
+            var xTilt = Input.acceleration.x;
+            var deadArea = new Vector2(-0.15f, 0.15f);
+            if (xTilt < deadArea.x || xTilt > deadArea.y)
+            {
+                xTilt = 0;
+            }
+
+            return xTilt;
         }
     }
 }
