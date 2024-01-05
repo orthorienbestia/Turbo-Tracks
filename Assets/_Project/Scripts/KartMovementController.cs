@@ -18,9 +18,9 @@ public class KartMovementController : MonoBehaviour
 
     public float CurrentSpeed => _rigidbody.velocity.magnitude * 3.6f;
     public float AccelInput { get; private set; }
-    
+
     public Vector3 centerOfMass;
-    
+
     [SerializeField] private ParticleSystem coinCollectEffect;
 
     private void Awake()
@@ -29,10 +29,12 @@ public class KartMovementController : MonoBehaviour
         {
             _wheelMeshLocalRotations[i] = _wheelMeshes[i].transform.localRotation;
         }
-        
+
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.centerOfMass = centerOfMass;
     }
+
+    private const float DeadSlowing = float.MaxValue * 1f;
 
     public void Move(float steering, float accel, float footBrake, float handBrake)
     {
@@ -67,14 +69,14 @@ public class KartMovementController : MonoBehaviour
         }
         else
         {
-            wheelColliders[2].brakeTorque = 0f;
-            wheelColliders[3].brakeTorque = 0f;
+            wheelColliders[2].brakeTorque = accel == 0 ? DeadSlowing : 0f;
+            wheelColliders[3].brakeTorque = accel == 0 ? DeadSlowing : 0f;
         }
-         
+
         _rigidbody.AddForce(100 * _rigidbody.velocity.magnitude * -transform.up);
         TractionControl();
         AntiRoll();
-        
+
         _currentMaxSteerAngle = CurrentSpeed switch
         {
             < 20f => Mathf.MoveTowards(_currentMaxSteerAngle, 25, 0.5f),
@@ -98,11 +100,11 @@ public class KartMovementController : MonoBehaviour
         for (var i = 0; i < 4; i++)
         {
             wheelColliders[i].motorTorque = thrustTorque;
-            
+
             if (CurrentSpeed > 5 && Vector3.Angle(transform.forward, _rigidbody.velocity) < 50f)
             {
                 wheelColliders[i].brakeTorque = 3000 * footBrake;
-            } 
+            }
             else if (footBrake > 0)
             {
                 wheelColliders[i].brakeTorque = 0f;
@@ -110,7 +112,7 @@ public class KartMovementController : MonoBehaviour
             }
         }
     }
-    
+
     private void AntiRoll()
     {
         for (var i = 0; i < wheelColliders.Length; i += 2)
@@ -125,7 +127,10 @@ public class KartMovementController : MonoBehaviour
         }
     }
 
-    private static float GetWheelTravel(WheelCollider wheelCollider) => wheelCollider.GetGroundHit(out var wheelHit) ? (-wheelCollider.transform.InverseTransformPoint(wheelHit.point).y - wheelCollider.radius) / wheelCollider.suspensionDistance : 1.0f;
+    private static float GetWheelTravel(WheelCollider wheelCollider) => wheelCollider.GetGroundHit(out var wheelHit)
+        ? (-wheelCollider.transform.InverseTransformPoint(wheelHit.point).y - wheelCollider.radius) /
+          wheelCollider.suspensionDistance
+        : 1.0f;
 
     private void ApplyAntiRollForce(WheelCollider wheelCollider, float force)
     {
@@ -157,7 +162,7 @@ public class KartMovementController : MonoBehaviour
             }
         }
     }
-    
+
     public void CollectCoin(Coin coin)
     {
         coinCollectEffect.Play();
