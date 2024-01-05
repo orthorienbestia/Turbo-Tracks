@@ -1,3 +1,5 @@
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,10 +11,24 @@ namespace _Project.Scripts
         [SerializeField] private GameObject carModifyPanel;
         [SerializeField] private Button carModifyButton;
 
+        [SerializeField] private Slider _lapSlider;
+        [SerializeField] private TMP_Text _lapText;
+        
+        private const string LapTextPrefix = "Lap Count : ";
         private void Start()
         {
             carModifyPanel.SetActive(false);
             carModifyButton.onClick.AddListener(() => carModifyPanel.SetActive(true));
+
+            _lapSlider.value = PlayerPrefs.GetInt(AppConstants.LapCountPrefKey, 1);
+            _lapText.text = LapTextPrefix + _lapSlider.value.ToString(CultureInfo.InvariantCulture);
+            _lapSlider.onValueChanged.AddListener(OnLapSliderValueChanged);
+        }
+
+        private void OnLapSliderValueChanged(float val)
+        {
+            PlayerPrefs.SetInt(AppConstants.LapCountPrefKey, (int)val);
+            _lapText.text = LapTextPrefix + _lapSlider.value.ToString(CultureInfo.InvariantCulture);
         }
 
         public void LoadGameScene()
