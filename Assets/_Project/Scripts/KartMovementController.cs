@@ -69,8 +69,10 @@ public class KartMovementController : MonoBehaviour
         }
         else
         {
-            wheelColliders[2].brakeTorque = accel == 0 ? DeadSlowing : 0f;
-            wheelColliders[3].brakeTorque = accel == 0 ? DeadSlowing : 0f;
+            wheelColliders[2].brakeTorque =  0f;
+            wheelColliders[3].brakeTorque =  0f;
+            // wheelColliders[2].brakeTorque = accel == 0 ? DeadSlowing : 0f;
+            // wheelColliders[3].brakeTorque = accel == 0 ? DeadSlowing : 0f;
         }
 
         _rigidbody.AddForce(100 * _rigidbody.velocity.magnitude * -transform.up);
