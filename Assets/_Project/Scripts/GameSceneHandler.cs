@@ -1,23 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameSceneHandler : MonoBehaviour
+namespace _Project.Scripts
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GameSceneHandler : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        // Reload scene
-        if (Input.GetKeyDown(KeyCode.R))
+        private void Update()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // Reload scene
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+    
+        public void BackToHomeScene()
+        {
+            SceneManager.LoadScene((int)Scenes.HomeScene);
         }
     }
 }

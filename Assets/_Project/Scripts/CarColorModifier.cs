@@ -20,6 +20,7 @@ namespace _Project.Scripts
         [SerializeField] private Button randomColorButton;
         [SerializeField] private Button closeButton;
         private static readonly int ColorShaderProperty = Shader.PropertyToID("_BaseColor");
+        private static readonly int ReceiveShadowsShaderProperty = Shader.PropertyToID("_ReceiveShadows");
 
         private void Awake()
         {
@@ -29,6 +30,7 @@ namespace _Project.Scripts
             
             // Create new material instance to avoid changing the original material.
             var materialInstance = Instantiate(material);
+            materialInstance.SetFloat(ReceiveShadowsShaderProperty, 0);
             foreach (var rendererItem in renderers)
             {
                 rendererItem.material = materialInstance;
@@ -38,8 +40,9 @@ namespace _Project.Scripts
         private void Start()
         {
             var color = GetColorFromPlayerPrefs();
-            SetColor(color);
-            slider.value = color.r;
+            ApplyColorToCar(color);
+            Color.RGBToHSV(color, out var hue, out _, out _);
+            slider.value = hue;
         }
         
         private void OnDestroy()
@@ -52,20 +55,20 @@ namespace _Project.Scripts
         private void OnSliderValueChanged(float value)
         {
             var color = Color.HSVToRGB(value, Saturation, Value);
-            SetColor(color);
+            ApplyColorToCar(color);
             SaveColorToPlayerPrefs(color);
         }
         
         private void OnRandomColorButtonClicked()
         {
             var color = Color.HSVToRGB(Random.Range(0f,1f), Saturation, Value);
-            SetColor(color);
+            ApplyColorToCar(color);
             SaveColorToPlayerPrefs(color);
             Color.RGBToHSV(color, out var hue, out _, out _);
             slider.value = hue;
         }
         
-        private void SetColor(Color color)
+        private void ApplyColorToCar(Color color)
         {
             foreach (var rendererItem in renderers)
             {
