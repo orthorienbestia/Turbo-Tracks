@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SpawnArea
+  - Waypoint
   layers:
   - Default
   - TransparentFX
