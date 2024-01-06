@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace _Project.Scripts.Collectables
@@ -8,7 +9,12 @@ namespace _Project.Scripts.Collectables
         // PowerUp duration in seconds.
         [SerializeField] protected float duration = 2.5f;
         protected static bool isApplied;
-        
+
+        private void Awake()
+        {
+            isApplied = false;
+        }
+
         protected override void OnTriggerEnter(Collider other)
         {
             if (!other.CompareTag("Player") || isApplied) return;

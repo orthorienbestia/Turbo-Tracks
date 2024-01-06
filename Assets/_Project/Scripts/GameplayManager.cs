@@ -13,8 +13,8 @@ namespace _Project.Scripts
         private int _lapCount;
         private int _currentLap;
     
-        public event System.Action OnLapComplete;
-        public event System.Action OnGameComplete;
+        public event Action OnLapComplete;
+        public event Action OnGameComplete;
     
         public GameObject midWayPoint;
         public GameObject lapFinishPoint;
@@ -24,6 +24,7 @@ namespace _Project.Scripts
         [SerializeField] TMP_Text _coinsCollectedText;
         [SerializeField] private KartMovementController kartMovementController;
         [SerializeField] private Button revGearButton;
+        [SerializeField] private TMP_Text _lapText;
         private TMP_Text _revText;
         private void Awake()
         {
@@ -38,6 +39,7 @@ namespace _Project.Scripts
         
             _lapCount = PlayerPrefs.GetInt(AppConstants.LapCountPrefKey, 1);
             _currentLap = 1;
+            _lapText.text = $"Lap: {_currentLap}/{_lapCount}";
         
             midWayPoint.SetActive(true);
             lapFinishPoint.SetActive(false);
@@ -93,6 +95,10 @@ namespace _Project.Scripts
             {
                 Debug.Log("Game Complete");
                 OnGameComplete?.Invoke();
+            }
+            else
+            {
+                _lapText.text = $"Lap: {_currentLap}/{_lapCount}";
             }
         }
 
