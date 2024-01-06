@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace _Project.Scripts.Collectables
@@ -10,6 +11,7 @@ namespace _Project.Scripts.Collectables
             kartMovementController.CollectCoin(this);
             GameplayManager.Instance.CollectCoin();
             PlayerPrefs.SetInt(AppConstants.CoinsPrefKey, PlayerPrefs.GetInt(AppConstants.CoinsPrefKey, 0 ) + 1);
+            Destroy(gameObject,5);
         }
     }
 }

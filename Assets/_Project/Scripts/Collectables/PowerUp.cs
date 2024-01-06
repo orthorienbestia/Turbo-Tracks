@@ -11,6 +11,7 @@ namespace _Project.Scripts.Collectables
         protected override void ObjectCollected(Collider other)
         {
             ApplyPowerUp(other.GetComponent<KartMovementController>());
+            Destroy(gameObject,10);
         }
 
         protected abstract void ApplyPowerUp(KartMovementController kartMovementController);

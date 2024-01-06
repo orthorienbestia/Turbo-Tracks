@@ -1,4 +1,3 @@
-using System;
 using _Project.Scripts;
 using _Project.Scripts.Collectables;
 using UnityEngine;
@@ -18,7 +17,7 @@ public class KartMovementController : MonoBehaviour
     private float _currentMaxSteerAngle;
 
     public float CurrentSpeed => _rigidbody.velocity.magnitude * 3.6f;
-    public float AccelInput { get; private set; }
+    //public float AccelInput { get; private set; }
 
     public Vector3 centerOfMass;
 
@@ -35,7 +34,7 @@ public class KartMovementController : MonoBehaviour
         _rigidbody.centerOfMass = centerOfMass;
     }
 
-    private const float DeadSlowing = float.MaxValue * 1f;
+    //private const float DeadSlowing = float.MaxValue * 1f;
 
     public void Move(float steering, float accel, float footBrake, float handBrake)
     {
@@ -51,7 +50,7 @@ public class KartMovementController : MonoBehaviour
         }
 
         steering = Mathf.Clamp(steering, -1, 1);
-        AccelInput = accel = Mathf.Clamp(accel, 0, 1);
+        accel = Mathf.Clamp(accel, 0, 1);
         footBrake = -1 * Mathf.Clamp(footBrake, -1, 0);
         handBrake = Mathf.Clamp(handBrake, 0, 1);
 
@@ -168,6 +167,8 @@ public class KartMovementController : MonoBehaviour
 
     public void CollectCoin(Coin coin)
     {
+        // Move coin towards kart and also scale down it
+        
         coinCollectEffect.Play();
     }
 
