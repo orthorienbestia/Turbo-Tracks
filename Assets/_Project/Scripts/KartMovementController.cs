@@ -28,6 +28,10 @@ public class KartMovementController : MonoBehaviour
     
     private BoxCollider _colliderForCollectables;
 
+    private bool _isReverseGear;
+    public bool IsReverseGear => _isReverseGear;
+    
+
     public Vector3 MagnetRadius
     {
         get => _colliderForCollectables.size;
@@ -49,6 +53,11 @@ public class KartMovementController : MonoBehaviour
 
     public void Move(float steering, float accel, float footBrake, float handBrake)
     {
+        if (_isReverseGear)
+        {
+            accel *= -1;
+            footBrake *= -1;
+        }
         var input = new Vector2(steering, accel);
         _currentInputVector = Vector2.SmoothDamp(_currentInputVector, input, ref _smoothInputVelocity, 0.2f);
         accel = _currentInputVector.y;
@@ -174,6 +183,11 @@ public class KartMovementController : MonoBehaviour
                 _currentTorque = 2000;
             }
         }
+    }
+
+    public void GearChanged()
+    {
+        _isReverseGear = !_isReverseGear;
     }
 
     public void GetCollectable(Collectable collectable)
