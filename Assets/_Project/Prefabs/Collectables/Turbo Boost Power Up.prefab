@@ -196,6 +196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e001b81713454cde82cdb734006530e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 2.5
-  topSpeedIncrease: 10
+  duration: 5
+  topSpeedIncrease: 20
   torqueIncrease: 10

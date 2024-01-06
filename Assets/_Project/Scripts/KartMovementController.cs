@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using _Project.Scripts;
 using _Project.Scripts.Collectables;
 using DG.Tweening;
@@ -24,7 +25,14 @@ public class KartMovementController : MonoBehaviour
     public Vector3 centerOfMass;
 
     [SerializeField] private ParticleSystem coinCollectEffect;
+    
+    private BoxCollider _colliderForCollectables;
 
+    public Vector3 MagnetRadius
+    {
+        get => _colliderForCollectables.size;
+        set => _colliderForCollectables.size = value;
+    }
     private void Awake()
     {
         for (var i = 0; i < 4; i++)
@@ -33,6 +41,7 @@ public class KartMovementController : MonoBehaviour
         }
 
         _rigidbody = GetComponent<Rigidbody>();
+        _colliderForCollectables = GetComponent<BoxCollider>();
         _rigidbody.centerOfMass = centerOfMass;
     }
 
@@ -166,16 +175,6 @@ public class KartMovementController : MonoBehaviour
             }
         }
     }
-
-    // public void CollectCoin(Coin coin)
-    // {
-    //     // Move coin towards kart and also scale down it
-    //     coin.transform.parent = transform;
-    //     coin.transform.DOLocalMove(new Vector3(0,1.8f,0), 0.8f).SetLoops(2, LoopType.Yoyo);
-    //     coin.transform.DOScale(Vector3.one * 1.5f, 0.4f).OnComplete(() => coin.transform.DOScale(Vector3.zero, 1f));
-    //     
-    //     coinCollectEffect.Play();
-    // }
 
     public void GetCollectable(Collectable collectable)
     {

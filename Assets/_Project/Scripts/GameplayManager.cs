@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -37,6 +38,14 @@ namespace _Project.Scripts
         
             midWayPoint.SetActive(true);
             lapFinishPoint.SetActive(false);
+            Time.timeScale = 0;
+            StartCoroutine(StartGame());
+        }
+
+        IEnumerator StartGame()
+        {
+            yield return new WaitForSecondsRealtime(4);
+            Time.timeScale = 1;
         }
 
         private void Start()
@@ -60,7 +69,7 @@ namespace _Project.Scripts
 
         private void CompleteLap()
         {
-            Debug.Log("Lap Complete");
+            Debug.Log("Lap Complete: "+ _currentLap + " of " + _lapCount + " laps");
             OnLapComplete?.Invoke();
             _currentLap++;
             if (_currentLap > _lapCount)
