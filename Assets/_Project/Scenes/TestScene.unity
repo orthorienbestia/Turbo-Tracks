@@ -1729,6 +1729,7 @@ MonoBehaviour:
   kartMovementController: {fileID: 971130762}
   revGearButton: {fileID: 1548489611}
   _lapText: {fileID: 863363127}
+  _gameCompletePanel: {fileID: 7061769405578012283}
 --- !u!4 &645331684
 Transform:
   m_ObjectHideFlags: 0
@@ -2391,7 +2392,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307064803}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -3626,11 +3627,11 @@ RectTransform:
   m_Children:
   - {fileID: 1418029652}
   - {fileID: 1255030197}
-  - {fileID: 1110746670}
   - {fileID: 1936850402}
   - {fileID: 1845399590}
   - {fileID: 1638712042}
   - {fileID: 863363126}
+  - {fileID: 1110746670}
   m_Father: {fileID: 2048651657}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4861,7 +4862,7 @@ RectTransform:
   m_Children:
   - {fileID: 1548489610}
   m_Father: {fileID: 1307064803}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -5118,7 +5119,7 @@ RectTransform:
   - {fileID: 2017306318}
   - {fileID: 17419058}
   m_Father: {fileID: 1307064803}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -5202,7 +5203,7 @@ RectTransform:
   m_Children:
   - {fileID: 141786477}
   m_Father: {fileID: 1307064803}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -11835,7 +11836,7 @@ PrefabInstance:
     - target: {fileID: 7061769406682382420, guid: 749404c42465c4b5b81ddf6a082ae719,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7061769406682382420, guid: 749404c42465c4b5b81ddf6a082ae719,
         type: 3}
@@ -11932,8 +11933,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Complete Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 7061769406682382423, guid: 749404c42465c4b5b81ddf6a082ae719,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 749404c42465c4b5b81ddf6a082ae719, type: 3}
+--- !u!1 &7061769405578012283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7061769406682382423, guid: 749404c42465c4b5b81ddf6a082ae719,
+    type: 3}
+  m_PrefabInstance: {fileID: 7061769405578012282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8197269538969453364
 PrefabInstance:
   m_ObjectHideFlags: 0

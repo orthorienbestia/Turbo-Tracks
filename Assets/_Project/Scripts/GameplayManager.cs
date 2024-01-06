@@ -25,6 +25,7 @@ namespace _Project.Scripts
         [SerializeField] private KartMovementController kartMovementController;
         [SerializeField] private Button revGearButton;
         [SerializeField] private TMP_Text _lapText;
+        [SerializeField] private GameObject _gameCompletePanel;
         private TMP_Text _revText;
         private void Awake()
         {
@@ -95,6 +96,8 @@ namespace _Project.Scripts
             {
                 Debug.Log("Game Complete");
                 OnGameComplete?.Invoke();
+                _gameCompletePanel.SetActive(true);
+                Time.timeScale = 0;
             }
             else
             {
