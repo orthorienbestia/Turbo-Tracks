@@ -35,7 +35,7 @@ namespace _Project.Scripts.Collectables.Spawners
         // Spawn a power up at a random spawn point.
         public void SpawnPowerUp(int count)
         {
-            const float probability = 0.3f;
+            const float probability = 0.05f;
             foreach (var spawnArea in _spawnPointsByArea)
             {
                 foreach (var spawnPoint in spawnArea)
@@ -66,7 +66,7 @@ namespace _Project.Scripts.Collectables.Spawners
         // Spawn coins at a random spawn point.
         public void SpawnCoins(int count)
         {
-            const float probability = 0.5f;
+            const float probability = 0.3f;
             foreach (var spawnArea in _spawnPointsByArea)
             {
                 foreach (var spawnPoint in spawnArea)
