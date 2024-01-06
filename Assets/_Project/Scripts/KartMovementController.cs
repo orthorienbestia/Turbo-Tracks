@@ -1,4 +1,5 @@
 using System;
+using _Project.Scripts;
 using _Project.Scripts.Collectables;
 using UnityEngine;
 

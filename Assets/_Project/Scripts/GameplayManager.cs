@@ -1,61 +1,95 @@
-using _Project.Scripts;
+using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameplayManager : MonoBehaviour
+namespace _Project.Scripts
 {
-    public static GameplayManager Instance { get; private set; }
-    private int _lapCount;
-    private int _currentLap;
-    
-    public event System.Action OnLapComplete;
-    public event System.Action OnGameComplete;
-    
-    public GameObject midWayPoint;
-    public GameObject lapFinishPoint;
-    
-    private void Awake()
+    public class GameplayManager : MonoBehaviour
     {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-        }
+        public static GameplayManager Instance { get; private set; }
+        private int _lapCount;
+        private int _currentLap;
+    
+        public event System.Action OnLapComplete;
+        public event System.Action OnGameComplete;
+    
+        public GameObject midWayPoint;
+        public GameObject lapFinishPoint;
+    
+        private int _coinsCollected;
         
-        _lapCount = PlayerPrefs.GetInt(AppConstants.LapCountPrefKey, 1);
-        _currentLap = 1;
+        [SerializeField] TMP_Text _coinsCollectedText;
+    
+        private void Awake()
+        {
+            if (Instance != null)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                Instance = this;
+            }
         
-        midWayPoint.SetActive(true);
-        lapFinishPoint.SetActive(false);
-    }
-
-    private void CompleteLap()
-    {
-        Debug.Log("Lap Complete");
-        OnLapComplete?.Invoke();
-        _currentLap++;
-        if (_currentLap > _lapCount)
-        {
-            Debug.Log("Game Complete");
-            OnGameComplete?.Invoke();
-        }
-    }
-
-    public void CrossedWayPoint(GameObject wayPoint)
-    {
-        if (wayPoint == midWayPoint)
-        {
-            midWayPoint.SetActive(false);
-            lapFinishPoint.SetActive(true); 
-        }
-        else
-        {
+            _lapCount = PlayerPrefs.GetInt(AppConstants.LapCountPrefKey, 1);
+            _currentLap = 1;
+        
             midWayPoint.SetActive(true);
             lapFinishPoint.SetActive(false);
+        }
+
+        private void Start()
+        {
+            _coinsCollectedText.text = _coinsCollected.ToString();
+        }
+
+        private void Update()
+        {
+            // Reload scene
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+    
+        public void BackToHomeScene()
+        {
+            SceneManager.LoadScene((int)Scenes.HomeScene);
+        }
+
+        private void CompleteLap()
+        {
+            Debug.Log("Lap Complete");
+            OnLapComplete?.Invoke();
+            _currentLap++;
+            if (_currentLap > _lapCount)
+            {
+                Debug.Log("Game Complete");
+                OnGameComplete?.Invoke();
+            }
+        }
+
+        public void CrossedWayPoint(GameObject wayPoint)
+        {
+            if (wayPoint == midWayPoint)
+            {
+                midWayPoint.SetActive(false);
+                lapFinishPoint.SetActive(true); 
+            }
+            else
+            {
+                midWayPoint.SetActive(true);
+                lapFinishPoint.SetActive(false);
         
-            CompleteLap();
+                CompleteLap();
+            }
+        }
+    
+        public void CollectCoin()
+        {
+            _coinsCollected++;
+            _coinsCollectedText.text = _coinsCollected.ToString();
         }
     }
 }

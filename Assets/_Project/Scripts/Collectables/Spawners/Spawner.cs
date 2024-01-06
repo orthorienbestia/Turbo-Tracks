@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using _Project.Scripts.Utility;
@@ -16,7 +15,9 @@ namespace _Project.Scripts.Collectables.Spawners
         [SerializeField] protected Transform[] spawnAreas;
         
         // Spawn Points are children of the Spawn Areas
-        private Transform[][] _spawnPointsByArea;
+         private Transform[][] _spawnPointsByArea;
+         
+        private readonly HashSet<Vector3> _objectSpawnedPositions = new();
         
         private void Awake()
         {
@@ -26,34 +27,62 @@ namespace _Project.Scripts.Collectables.Spawners
 
         private void Start()
         {
-            SpawnPowerUp();
-            SpawnCoins();
+            SpawnPowerUp(-1);
+            SpawnCoins(-1);
         }
 
         [ContextMenu("Spawn PowerUp")]
-        public void SpawnPowerUp()
+        // Spawn a power up at a random spawn point.
+        public void SpawnPowerUp(int count)
         {
             const float probability = 0.3f;
             foreach (var spawnArea in _spawnPointsByArea)
             {
                 foreach (var spawnPoint in spawnArea)
                 {
-                    if (Random.Range(0, 1.0f) > probability) continue;
-                    Spawn(powerUpPrefabs.GetRandomItem(), spawnPoint.position, spawnPoint.rotation);
+                    if (count == 0)
+                    {
+                        return;
+                    }
+                    var position = spawnPoint.position;
+                    
+                    if (Random.Range(0, 1.0f) > probability || _objectSpawnedPositions.Contains(position)) continue;
+                    
+                    var spawnedObj = Spawn(powerUpPrefabs.GetRandomItem(), position, spawnPoint.rotation);
+                    var powerUp = spawnedObj.GetComponent<Collectable>();
+                    powerUp.OnObjectCollected += _ =>
+                    {
+                        RemoveSpawnedPosition(position);
+                        SpawnPowerUp(1);
+                    };
+                    
+                    _objectSpawnedPositions.Add(position);
+                    count--;
                 }
             }
         }
         
         [ContextMenu("Spawn Coins")]
-        public void SpawnCoins()
+        // Spawn coins at a random spawn point.
+        public void SpawnCoins(int count)
         {
             const float probability = 0.5f;
             foreach (var spawnArea in _spawnPointsByArea)
             {
                 foreach (var spawnPoint in spawnArea)
                 {
-                    if (Random.Range(0, 1.0f) > probability) continue;
-                    Spawn(coinPrefab, spawnPoint.position, spawnPoint.rotation);
+                    if (count == 0)
+                    {
+                        return;
+                    }
+                    var position = spawnPoint.position;
+                    
+                    if (Random.Range(0, 1.0f) > probability || _objectSpawnedPositions.Contains(position)) continue;
+                    var spawnedObj = Spawn(coinPrefab, spawnPoint.position, spawnPoint.rotation);
+                    var coin = spawnedObj.GetComponent<Collectable>();
+                    coin.OnObjectCollected += _ => RemoveSpawnedPosition(position);
+                    _objectSpawnedPositions.Add(position);
+                    count--;
                 }
             }
         }
@@ -75,6 +104,11 @@ namespace _Project.Scripts.Collectables.Spawners
                     Gizmos.DrawSphere(spawnPoint.position + new Vector3(0,0.25f,0), 0.2f);
                 }
             }
+        }
+        
+        private void RemoveSpawnedPosition(Vector3 position)
+        {
+            _objectSpawnedPositions.Remove(position);
         }
     }
 }
