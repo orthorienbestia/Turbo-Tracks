@@ -8,7 +8,7 @@ namespace _Project.Scripts.Collectables.Spawners
 {
     public class Spawner : MonoBehaviour
     {
-        private static string SpawnAreaTag => "SpawnArea";
+        
         
         [SerializeField] protected List<GameObject> powerUpPrefabs;
         [SerializeField] protected GameObject coinPrefab;
@@ -21,7 +21,7 @@ namespace _Project.Scripts.Collectables.Spawners
         
         private void Awake()
         {
-            spawnAreas = GameObject.FindGameObjectsWithTag(SpawnAreaTag).Select(x => x.transform).ToArray();
+            spawnAreas = GameObject.FindGameObjectsWithTag(AppConstants.SpawnAreaTag).Select(x => x.transform).ToArray();
             _spawnPointsByArea = spawnAreas.Select(spawnArea => spawnArea.GetComponentsInChildren<Transform>().Where(t=> t!=spawnArea).ToArray()).ToArray();
         }
 
