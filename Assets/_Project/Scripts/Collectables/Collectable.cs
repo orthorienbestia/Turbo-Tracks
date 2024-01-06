@@ -14,6 +14,9 @@ namespace _Project.Scripts.Collectables
             
             OnObjectCollected?.Invoke(other);
             ObjectCollected(other);
+            
+            var kartMovementController = other.GetComponent<KartMovementController>();
+            kartMovementController.GetCollectable(this);
         }
 
         protected abstract void ObjectCollected(Collider other);

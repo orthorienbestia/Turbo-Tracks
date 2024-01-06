@@ -167,12 +167,21 @@ public class KartMovementController : MonoBehaviour
         }
     }
 
-    public void CollectCoin(Coin coin)
+    // public void CollectCoin(Coin coin)
+    // {
+    //     // Move coin towards kart and also scale down it
+    //     coin.transform.parent = transform;
+    //     coin.transform.DOLocalMove(new Vector3(0,1.8f,0), 0.8f).SetLoops(2, LoopType.Yoyo);
+    //     coin.transform.DOScale(Vector3.one * 1.5f, 0.4f).OnComplete(() => coin.transform.DOScale(Vector3.zero, 1f));
+    //     
+    //     coinCollectEffect.Play();
+    // }
+
+    public void GetCollectable(Collectable collectable)
     {
-        // Move coin towards kart and also scale down it
-        coin.transform.parent = transform;
-        coin.transform.DOLocalMove(new Vector3(0,1.8f,0), 0.8f).SetLoops(2, LoopType.Yoyo);
-        coin.transform.DOScale(Vector3.one * 1.5f, 0.4f).OnComplete(() => coin.transform.DOScale(Vector3.zero, 1f));
+        collectable.transform.parent = transform;
+        collectable.transform.DOLocalMove(new Vector3(0,1.8f,0), 0.8f).SetLoops(2, LoopType.Yoyo);
+        collectable.transform.DOScale(Vector3.one * 1.5f, 0.4f).OnComplete(() => collectable.transform.DOScale(Vector3.zero, 1f));
         
         coinCollectEffect.Play();
     }
