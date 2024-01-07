@@ -16,6 +16,7 @@
 - Camera
     - changing field of view based on current speed
     - tilting camera according to gyroscope
+- Tutorial added at first launch and homescreen
 
 ## Important Classes
 
