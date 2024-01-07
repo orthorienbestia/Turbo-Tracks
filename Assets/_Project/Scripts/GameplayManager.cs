@@ -12,22 +12,24 @@ namespace _Project.Scripts
         public static GameplayManager Instance { get; private set; }
         private int _lapCount;
         private int _currentLap;
-    
+
         public event Action OnLapComplete;
         public event Action OnGameComplete;
-    
+
         public GameObject midWayPoint;
         public GameObject lapFinishPoint;
-    
+
         private int _coinsCollected;
-        
+
         [SerializeField] TMP_Text _coinsCollectedText;
         [SerializeField] private KartMovementController kartMovementController;
         [SerializeField] private Button revGearButton;
         [SerializeField] private TMP_Text _lapText;
         [SerializeField] private GameObject _gameCompletePanel;
         [SerializeField] private TMP_Text _finalPositionText;
+        [SerializeField] private TMP_Text _speedText;
         private TMP_Text _revText;
+
         private void Awake()
         {
             if (Instance != null)
@@ -38,16 +40,16 @@ namespace _Project.Scripts
             {
                 Instance = this;
             }
-        
+
             _lapCount = PlayerPrefs.GetInt(AppConstants.LapCountPrefKey, 1);
             _currentLap = 1;
             _lapText.text = $"Lap: {_currentLap}/{_lapCount}";
-        
+
             midWayPoint.SetActive(true);
             lapFinishPoint.SetActive(false);
-            
+
             _revText = revGearButton.GetComponentInChildren<TMP_Text>();
-            
+
             Time.timeScale = 0;
             StartCoroutine(StartGame());
         }
@@ -58,8 +60,8 @@ namespace _Project.Scripts
             Time.timeScale = 1;
         }
 
-        private static readonly Color revGearColor = new Color(0.9960785f,0.6431373f,0);
-        private static readonly Color normalGearColor = new Color(0.4901961f,0.9960784f,0);
+        private static readonly Color revGearColor = new Color(0.9960785f, 0.6431373f, 0);
+        private static readonly Color normalGearColor = new Color(0.4901961f, 0.9960784f, 0);
         private void Start()
         {
             _coinsCollectedText.text = _coinsCollected.ToString();
@@ -71,9 +73,8 @@ namespace _Project.Scripts
             });
             revGearButton.image.color = kartMovementController.IsReverseGear ? revGearColor : normalGearColor;
             _revText.text = kartMovementController.IsReverseGear ? "R" : "N";
-            
         }
-
+#if UNITY_EDITOR
         private void Update()
         {
             // Reload scene
@@ -82,7 +83,13 @@ namespace _Project.Scripts
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
-    
+#endif
+        
+        private void LateUpdate()
+        {
+            _speedText.text = $"{Mathf.RoundToInt(kartMovementController.CurrentSpeed).ToString()} KPH";
+        }
+
         public void BackToHomeScene()
         {
             Time.timeScale = 1;
@@ -91,7 +98,7 @@ namespace _Project.Scripts
 
         private void CompleteLap()
         {
-            Debug.Log("Lap Complete: "+ _currentLap + " of " + _lapCount + " laps");
+            Debug.Log("Lap Complete: " + _currentLap + " of " + _lapCount + " laps");
             OnLapComplete?.Invoke();
             _currentLap++;
             if (_currentLap > _lapCount)
@@ -113,17 +120,17 @@ namespace _Project.Scripts
             if (wayPoint == midWayPoint)
             {
                 midWayPoint.SetActive(false);
-                lapFinishPoint.SetActive(true); 
+                lapFinishPoint.SetActive(true);
             }
             else
             {
                 midWayPoint.SetActive(true);
                 lapFinishPoint.SetActive(false);
-        
+
                 CompleteLap();
             }
         }
-    
+
         public void CollectCoin()
         {
             _coinsCollected++;

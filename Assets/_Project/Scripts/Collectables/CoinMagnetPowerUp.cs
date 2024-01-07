@@ -6,20 +6,22 @@ namespace _Project.Scripts.Collectables
 {
     public class CoinMagnetPowerUp : PowerUp
     {
-        [FormerlySerializedAs("magnetRadius")] [SerializeField] private float magnetRadiusMultiplier = 2f;
-        
+        [FormerlySerializedAs("magnetRadius")] [SerializeField]
+        private float magnetRadiusMultiplier = 2f;
+
         private static bool _isApplied;
+
         protected override void ApplyPowerUp(KartMovementController kartMovementController)
         {
             if (_isApplied) return;
             kartMovementController.MagnetRadius *= magnetRadiusMultiplier;
             kartMovementController.coinMagnetEffectGameObject.SetActive(true);
             _isApplied = true;
-            
+
             Debug.Log("Coin Magnet Applied");
             StartCoroutine(RemovePowerUp(kartMovementController));
         }
-        
+
         private IEnumerator RemovePowerUp(KartMovementController kartMovementController)
         {
             if (!_isApplied) yield break;
@@ -27,7 +29,7 @@ namespace _Project.Scripts.Collectables
             kartMovementController.MagnetRadius /= magnetRadiusMultiplier;
             kartMovementController.coinMagnetEffectGameObject.SetActive(false);
             _isApplied = false;
-            
+
             Debug.Log("Coin Magnet Removed");
         }
     }

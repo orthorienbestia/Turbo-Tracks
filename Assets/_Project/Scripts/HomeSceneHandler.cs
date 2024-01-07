@@ -13,7 +13,7 @@ namespace _Project.Scripts
 
         [SerializeField] private Slider _lapSlider;
         [SerializeField] private TMP_Text _lapText;
-        
+
         [SerializeField] private TMP_Text _coinsCollectedText;
         private const string LapTextPrefix = "Lap Count : ";
 

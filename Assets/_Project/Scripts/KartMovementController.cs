@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using _Project.Scripts;
 using _Project.Scripts.Collectables;
 using DG.Tweening;
@@ -20,24 +18,24 @@ public class KartMovementController : MonoBehaviour
     private float _currentMaxSteerAngle;
 
     public float CurrentSpeed => _rigidbody.velocity.magnitude * 3.6f;
-    //public float AccelInput { get; private set; }
 
     public Vector3 centerOfMass;
 
     [SerializeField] private ParticleSystem coinCollectEffect;
     public GameObject coinMagnetEffectGameObject;
-    
+
     private BoxCollider _colliderForCollectables;
 
     private bool _isReverseGear;
     public bool IsReverseGear => _isReverseGear;
-    
+
 
     public Vector3 MagnetRadius
     {
         get => _colliderForCollectables.size;
         set => _colliderForCollectables.size = value;
     }
+
     private void Awake()
     {
         for (var i = 0; i < 4; i++)
@@ -51,8 +49,6 @@ public class KartMovementController : MonoBehaviour
         coinMagnetEffectGameObject.SetActive(false);
     }
 
-    //private const float DeadSlowing = float.MaxValue * 1f;
-
     public void Move(float steering, float accel, float footBrake, float handBrake)
     {
         if (_isReverseGear)
@@ -60,6 +56,7 @@ public class KartMovementController : MonoBehaviour
             accel *= -1;
             footBrake *= -1;
         }
+
         var input = new Vector2(steering, accel);
         _currentInputVector = Vector2.SmoothDamp(_currentInputVector, input, ref _smoothInputVelocity, 0.2f);
         accel = _currentInputVector.y;
@@ -91,10 +88,8 @@ public class KartMovementController : MonoBehaviour
         }
         else
         {
-            wheelColliders[2].brakeTorque =  0f;
-            wheelColliders[3].brakeTorque =  0f;
-            // wheelColliders[2].brakeTorque = accel == 0 ? DeadSlowing : 0f;
-            // wheelColliders[3].brakeTorque = accel == 0 ? DeadSlowing : 0f;
+            wheelColliders[2].brakeTorque = 0f;
+            wheelColliders[3].brakeTorque = 0f;
         }
 
         _rigidbody.AddForce(100 * _rigidbody.velocity.magnitude * -transform.up);
@@ -195,18 +190,17 @@ public class KartMovementController : MonoBehaviour
     public void GetCollectable(Collectable collectable)
     {
         collectable.transform.parent = transform;
-        collectable.transform.DOLocalMove(new Vector3(0,1.8f,0), 0.8f).SetLoops(2, LoopType.Yoyo);
-        collectable.transform.DOScale(Vector3.one * 1.5f, 0.4f).OnComplete(() => collectable.transform.DOScale(Vector3.zero, 1f));
-        
+        collectable.transform.DOLocalMove(new Vector3(0, 1.8f, 0), 0.8f).SetLoops(2, LoopType.Yoyo);
+        collectable.transform.DOScale(Vector3.one * 1.5f, 0.4f)
+            .OnComplete(() => collectable.transform.DOScale(Vector3.zero, 1f));
+
         coinCollectEffect.Play();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Waypoint"))
-        {
-            Debug.Log("Waypoint: " + other.gameObject.name);
-            GameplayManager.Instance.CrossedWayPoint(other.gameObject);
-        }
+        if (!other.CompareTag("Waypoint")) return;
+        Debug.Log("Waypoint: " + other.gameObject.name);
+        GameplayManager.Instance.CrossedWayPoint(other.gameObject);
     }
 }

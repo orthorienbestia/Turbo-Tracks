@@ -35,8 +35,6 @@ namespace _Project.Scripts
                 _turn = Mathf.Abs(Input.acceleration.x) <0.2f ? 0 : Input.acceleration.x * 0.5f;
                 _brake = _isBrakePressed ? 1 : 0;
                 
-                
-                // var targetFOV = 40 + Mathf.Abs(_acceleration) * 7;
                 var targetFOV = 33 + _kartMovementController.CurrentSpeed / _kartMovementController._topSpeed * 17;
                 virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(virtualCamera.m_Lens.FieldOfView, targetFOV, Time.deltaTime*3);
                 
