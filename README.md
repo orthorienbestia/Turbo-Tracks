@@ -32,14 +32,14 @@
 - Phase 3: Integration of features, Remaining features, Bug fixes
 - Final Phase: Finalisation, Assets/Code CleanUp & Restructure, Documentation, Task Breakdown structure, Extra features
 
-## Phase 1: Base Setup
+### Phase 1: Base Setup
 
 - Basic Scene setup
 - Input System
 - Gyroscope
 - Car controller
 
-## Phase 2: Important features
+### Phase 2: Important features
 
 - Power Ups
 - Coins
@@ -49,7 +49,7 @@
 - Race complete pop up
 - Kart customisation panel
 
-## Phase 3: Integration of features, Remaining features, Bug fixes
+### Phase 3: Integration of features, Remaining features, Bug fixes
 
 - Integration of all done features in scene
 - Laps’ system
@@ -60,7 +60,7 @@
 - Adding lighting and other effects
 - Bug fixes
 
-## Final Phase: Finalisation, Assets/Code CleanUp & Restructure, Documentation, Task Breakdown structure, Extra features
+### Final Phase: Finalisation, Assets/Code CleanUp & Restructure, Documentation, Task Breakdown structure, Extra features
 
 - Assets restructure
 - Code clean up
