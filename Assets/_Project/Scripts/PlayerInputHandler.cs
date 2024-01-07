@@ -76,3 +76,9 @@ namespace _Project.Scripts
         #endregion
     }
 }
+
+public enum InputMode
+{
+    Keyboard,
+    Touch
+}
