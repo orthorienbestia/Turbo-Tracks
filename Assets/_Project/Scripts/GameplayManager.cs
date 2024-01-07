@@ -30,6 +30,7 @@ namespace _Project.Scripts
         [SerializeField] private GameObject _gameCompletePanel;
         [SerializeField] private TMP_Text _finalPositionText;
         [SerializeField] private TMP_Text _speedText;
+        [SerializeField] private GameObject _inforPanel;
         private TMP_Text _revText;
 
         [SerializeField] Volume _postProcessingVolume;
@@ -180,6 +181,11 @@ namespace _Project.Scripts
                     yield return null;
                 }
             }
+        }
+        
+        public void ToggleInfoPanel(bool value)
+        {
+            _inforPanel.SetActive(value);
         }
     }
 }
