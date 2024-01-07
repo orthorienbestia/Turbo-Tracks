@@ -12,6 +12,7 @@ namespace _Project.Scripts.Collectables
         {
             if (isApplied) return;
             kartMovementController._topSpeed += topSpeedIncrease;
+            GameplayManager.Instance.ToggleTurboBoostEffect(true);
             isApplied = true;
 
             Debug.Log("Turbo Boost Applied");
@@ -23,6 +24,7 @@ namespace _Project.Scripts.Collectables
             if (!isApplied) yield break;
             yield return new WaitForSeconds(duration);
             kartMovementController._topSpeed -= topSpeedIncrease;
+            GameplayManager.Instance.ToggleTurboBoostEffect(false);
             isApplied = false;
 
             Debug.Log("Turbo Boost Removed");

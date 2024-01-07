@@ -2697,6 +2697,7 @@ MonoBehaviour:
   _gameCompletePanel: {fileID: 7061769405578012283}
   _finalPositionText: {fileID: 523040600}
   _speedText: {fileID: 588801284}
+  _postProcessingVolume: {fileID: 832575518}
 --- !u!4 &645331684
 Transform:
   m_ObjectHideFlags: 0
@@ -12502,7 +12503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -61.050293, y: 52.72502}
+  m_AnchoredPosition: {x: -61.050293, y: 52.724976}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1842161557

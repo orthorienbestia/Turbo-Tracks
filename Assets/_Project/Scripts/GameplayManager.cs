@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -30,6 +32,12 @@ namespace _Project.Scripts
         [SerializeField] private TMP_Text _speedText;
         private TMP_Text _revText;
 
+        [SerializeField] Volume _postProcessingVolume;
+        private Vignette _vignette;
+        private const float VignetteIntensity = 0.33f;
+        private MotionBlur _motionBlur;
+        private const float MotionBlurIntensity = 0.55f;
+
         private void Awake()
         {
             if (Instance != null)
@@ -49,7 +57,13 @@ namespace _Project.Scripts
             lapFinishPoint.SetActive(false);
 
             _revText = revGearButton.GetComponentInChildren<TMP_Text>();
-
+            
+            _postProcessingVolume.profile.TryGet(out _vignette);
+            _vignette.intensity.value = 0;
+            
+            _postProcessingVolume.profile.TryGet(out _motionBlur);
+            _motionBlur.intensity.value = 0;
+            
             Time.timeScale = 0;
             StartCoroutine(StartGame());
         }
@@ -84,7 +98,7 @@ namespace _Project.Scripts
             }
         }
 #endif
-        
+
         private void LateUpdate()
         {
             _speedText.text = $"{Mathf.RoundToInt(kartMovementController.CurrentSpeed).ToString()} KPH";
@@ -135,6 +149,37 @@ namespace _Project.Scripts
         {
             _coinsCollected++;
             _coinsCollectedText.text = _coinsCollected.ToString();
+        }
+
+        public void ToggleTurboBoostEffect(bool value)
+        {
+            if(_turboBoostEffectCoroutine != null)
+                StopCoroutine(_turboBoostEffectCoroutine);
+            _turboBoostEffectCoroutine = StartCoroutine(_TurboBoostEffect(value));
+        }
+        
+        private Coroutine _turboBoostEffectCoroutine;
+        private IEnumerator _TurboBoostEffect(bool value)
+        {
+            const float duration = 1f;
+            if (value)
+            {
+                for (float t = 0; t < duration; t += Time.deltaTime)
+                {
+                    _vignette.intensity.value = Mathf.Lerp(0, VignetteIntensity, t / duration);
+                    _motionBlur.intensity.value = Mathf.Lerp(0, MotionBlurIntensity, t / duration);
+                    yield return null;
+                }
+            }
+            else
+            {
+                for (float t = 0; t < duration; t += Time.deltaTime)
+                {
+                    _vignette.intensity.value = Mathf.Lerp(VignetteIntensity, 0, t / duration);
+                    _motionBlur.intensity.value = Mathf.Lerp(MotionBlurIntensity, 0, t / duration);
+                    yield return null;
+                }
+            }
         }
     }
 }
