@@ -7,7 +7,7 @@ namespace _Project.Scripts.Utility
     {
         public Vector3 rotationSpeed;
         public bool x, y, z;
-        
+
         private void Update()
         {
             if (x)
