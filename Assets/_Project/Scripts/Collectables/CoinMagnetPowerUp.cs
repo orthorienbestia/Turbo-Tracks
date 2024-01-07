@@ -13,6 +13,7 @@ namespace _Project.Scripts.Collectables
         {
             if (_isApplied) return;
             kartMovementController.MagnetRadius *= magnetRadiusMultiplier;
+            kartMovementController.coinMagnetEffectGameObject.SetActive(true);
             _isApplied = true;
             
             Debug.Log("Coin Magnet Applied");
@@ -24,6 +25,7 @@ namespace _Project.Scripts.Collectables
             if (!_isApplied) yield break;
             yield return new WaitForSeconds(duration);
             kartMovementController.MagnetRadius /= magnetRadiusMultiplier;
+            kartMovementController.coinMagnetEffectGameObject.SetActive(false);
             _isApplied = false;
             
             Debug.Log("Coin Magnet Removed");

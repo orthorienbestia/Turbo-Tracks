@@ -25,6 +25,7 @@ public class KartMovementController : MonoBehaviour
     public Vector3 centerOfMass;
 
     [SerializeField] private ParticleSystem coinCollectEffect;
+    public GameObject coinMagnetEffectGameObject;
     
     private BoxCollider _colliderForCollectables;
 
@@ -47,6 +48,7 @@ public class KartMovementController : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _colliderForCollectables = GetComponent<BoxCollider>();
         _rigidbody.centerOfMass = centerOfMass;
+        coinMagnetEffectGameObject.SetActive(false);
     }
 
     //private const float DeadSlowing = float.MaxValue * 1f;
