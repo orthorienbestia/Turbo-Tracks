@@ -85,6 +85,7 @@ namespace _Project.Scripts
     
         public void BackToHomeScene()
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene((int)Scenes.HomeScene);
         }
 
