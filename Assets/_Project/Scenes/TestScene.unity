@@ -1871,6 +1871,18 @@ Transform:
   m_Father: {fileID: 2120794812}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &523040600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7061769406446589628, guid: 749404c42465c4b5b81ddf6a082ae719,
+    type: 3}
+  m_PrefabInstance: {fileID: 7061769405578012282}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &532826217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,6 +2079,7 @@ MonoBehaviour:
   revGearButton: {fileID: 1548489611}
   _lapText: {fileID: 863363127}
   _gameCompletePanel: {fileID: 7061769405578012283}
+  _finalPositionText: {fileID: 523040600}
 --- !u!4 &645331684
 Transform:
   m_ObjectHideFlags: 0

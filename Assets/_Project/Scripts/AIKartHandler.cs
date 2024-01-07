@@ -17,6 +17,8 @@ namespace _Project.Scripts
         
         public Queue<Transform> _currentGamePath = new Queue<Transform>();
         
+        public static bool hasReachedTarget;
+        
         private void Awake()
         {
             agent = GetComponent<NavMeshAgent>();
@@ -35,7 +37,7 @@ namespace _Project.Scripts
                 }
             }
             
-            _currentGamePath.Enqueue(_milestonesByGroup[0].ToList().GetRandomItem());
+            //_currentGamePath.Enqueue(_milestonesByGroup[0].ToList().GetRandomItem());
         }
 
         private void Update()
@@ -50,6 +52,7 @@ namespace _Project.Scripts
                 _currentGamePath.Dequeue();
                 if (_currentGamePath.Count == 0)
                 {
+                    hasReachedTarget = true;
                     return;
                 }
                 target = _currentGamePath.Peek();

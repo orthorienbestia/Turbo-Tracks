@@ -39,7 +39,11 @@ namespace _Project.Scripts.Collectables.Spawners
             {
                 if (coin== null) continue;
                 _objectSpawnedPositions.Remove(coin.transform.position);
-                coin.transform.DOScale(Vector3.zero, 0.5f).OnComplete(() => Destroy(coin.gameObject));
+                coin.transform.DOScale(Vector3.zero, 0.5f).OnComplete(() =>
+                {
+                    if (coin == null) return;
+                    Destroy(coin.gameObject);
+                });
             }
             _spawnedCoins.Clear();
             SpawnCoins(-1);

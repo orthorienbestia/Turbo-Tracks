@@ -26,6 +26,7 @@ namespace _Project.Scripts
         [SerializeField] private Button revGearButton;
         [SerializeField] private TMP_Text _lapText;
         [SerializeField] private GameObject _gameCompletePanel;
+        [SerializeField] private TMP_Text _finalPositionText;
         private TMP_Text _revText;
         private void Awake()
         {
@@ -97,6 +98,7 @@ namespace _Project.Scripts
                 Debug.Log("Game Complete");
                 OnGameComplete?.Invoke();
                 _gameCompletePanel.SetActive(true);
+                _finalPositionText.text = AIKartHandler.hasReachedTarget ? "2nd" : "1st";
                 Time.timeScale = 0;
             }
             else
