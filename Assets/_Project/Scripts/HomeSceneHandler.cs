@@ -16,10 +16,21 @@ namespace _Project.Scripts
 
         [SerializeField] private TMP_Text _coinsCollectedText;
         private const string LapTextPrefix = "Lap Count : ";
+        
+        [SerializeField] private GameObject tutorialPanel;
 
         private void Awake()
         {
             Application.targetFrameRate = 60;
+            if (PlayerPrefs.HasKey("FirstLaunch"))
+            {
+                tutorialPanel.SetActive(false);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("FirstLaunch", 1);
+                tutorialPanel.SetActive(true);
+            }
         }
 
         private void Start()
@@ -42,6 +53,11 @@ namespace _Project.Scripts
         public void LoadGameScene()
         {
             SceneManager.LoadScene((int)Scenes.GameScene);
+        }
+        
+        public void ToggleTutorialPanel(bool val)
+        {
+            tutorialPanel.SetActive(val);
         }
     }
 }
