@@ -644,8 +644,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Randomize
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1c4bfcab826234afbbd559d81569fe1a, type: 2}
-  m_sharedMaterial: {fileID: 8930135145647297880, guid: 1c4bfcab826234afbbd559d81569fe1a,
+  m_fontAsset: {fileID: 11400000, guid: 0e74217b48e9a4a3c93f716b5bbd2bc9, type: 2}
+  m_sharedMaterial: {fileID: 8063895399863501079, guid: 0e74217b48e9a4a3c93f716b5bbd2bc9,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.9
+  m_fontSize: 14.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4212,7 +4212,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4928171277864940598}
-  m_LocalRotation: {x: 0, y: -0.6355966, z: 0, w: -0.7720214}
+  m_LocalRotation: {x: 0, y: -0.9996415, z: 0, w: 0.02677561}
   m_LocalPosition: {x: -283, y: 115, z: -310.67}
   m_LocalScale: {x: 298.56158, y: 298.56158, z: 298.56158}
   m_ConstrainProportionsScale: 0
