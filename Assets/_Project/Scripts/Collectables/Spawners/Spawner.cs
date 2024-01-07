@@ -108,7 +108,11 @@ namespace _Project.Scripts.Collectables.Spawners
 
         private GameObject Spawn(GameObject prefab, Vector3 position, Quaternion rotation)
         {
-            return Instantiate(prefab, position, rotation, transform);
+            var spawnedObj = Instantiate(prefab, position, rotation, transform);
+
+            spawnedObj.transform.DOScale(Vector3.zero, 1f).From();
+            
+            return spawnedObj;
         }
         
         private void OnDrawGizmos()
