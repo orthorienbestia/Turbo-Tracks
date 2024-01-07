@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using _Project.Scripts.Utility;
+using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,7 +9,6 @@ namespace _Project.Scripts.Collectables.Spawners
 {
     public class Spawner : MonoBehaviour
     {
-        
         
         [SerializeField] protected List<GameObject> powerUpPrefabs;
         [SerializeField] protected GameObject coinPrefab;
@@ -18,16 +18,30 @@ namespace _Project.Scripts.Collectables.Spawners
          private Transform[][] _spawnPointsByArea;
          
         private readonly HashSet<Vector3> _objectSpawnedPositions = new();
+        private List<Coin> _spawnedCoins = new List<Coin>();
         
         private void Awake()
         {
-            spawnAreas = GameObject.FindGameObjectsWithTag(AppConstants.SpawnAreaTag).Select(x => x.transform).ToArray();
             _spawnPointsByArea = spawnAreas.Select(spawnArea => spawnArea.GetComponentsInChildren<Transform>().Where(t=> t!=spawnArea).ToArray()).ToArray();
         }
 
         private void Start()
         {
             SpawnPowerUp(-1);
+            SpawnCoins(-1);
+            GameplayManager.Instance.OnLapComplete += OnLapCompleted;
+        }
+
+        private void OnLapCompleted()
+        {
+            // Destroy all coins and spawn new ones.
+            foreach (var coin in _spawnedCoins)
+            {
+                if (coin== null) continue;
+                _objectSpawnedPositions.Remove(coin.transform.position);
+                coin.transform.DOScale(Vector3.zero, 0.5f).OnComplete(() => Destroy(coin.gameObject));
+            }
+            _spawnedCoins.Clear();
             SpawnCoins(-1);
         }
 
@@ -79,8 +93,13 @@ namespace _Project.Scripts.Collectables.Spawners
                     
                     if (Random.Range(0, 1.0f) > probability || _objectSpawnedPositions.Contains(position)) continue;
                     var spawnedObj = Spawn(coinPrefab, spawnPoint.position, spawnPoint.rotation);
-                    var coin = spawnedObj.GetComponent<Collectable>();
-                    coin.OnObjectCollected += _ => RemoveSpawnedPosition(position);
+                    var coin = spawnedObj.GetComponent<Coin>();
+                    _spawnedCoins.Add(coin);
+                    coin.OnObjectCollected += _ =>
+                    {
+                        _spawnedCoins.Remove(coin);
+                        RemoveSpawnedPosition(position);
+                    };
                     _objectSpawnedPositions.Add(position);
                     count--;
                 }
@@ -105,7 +124,7 @@ namespace _Project.Scripts.Collectables.Spawners
                 }
             }
         }
-        
+
         private void RemoveSpawnedPosition(Vector3 position)
         {
             _objectSpawnedPositions.Remove(position);
