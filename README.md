@@ -1,6 +1,6 @@
 # README
 
-[Click here for APK](https://github.com/orthorienbestia/Turbo-Tracks/releases/tag/submission)
+[Click here for APK](https://github.com/orthorienbestia/Turbo-Tracks/blob/final-phase/AkshayTurboTracks.apk)
 
 ## Notable features added
 
