@@ -72,3 +72,22 @@
 - Adding extra features, surrounding, effects, etc
 - Create Task Breakdown Structure
 - Create Documentation / README
+- Adding Tutorial
+- Add APK
+
+
+## Screenshots
+### Home Screen
+![Screenshot 1](Screenshots/Screenshot%201.png "Screenshot 1")
+### Game Tutorials
+![Screenshot 2](Screenshots/Screenshot%202.png "Screenshot 2")
+![Screenshot 3](Screenshots/Screenshot%203.png "Screenshot 3")
+![Screenshot 4](Screenshots/Screenshot%204.png "Screenshot 4")
+![Screenshot 5](Screenshots/Screenshot%205.png "Screenshot 5")
+![Screenshot 6](Screenshots/Screenshot%206.png "Screenshot 6")
+![Screenshot 7](Screenshots/Screenshot%207.png "Screenshot 7")
+### Kart Customisation
+![Screenshot 8](Screenshots/Screenshot%208.png "Screenshot 8")
+### Game Play
+![Screenshot 9](Screenshots/Screenshot%209.png "Screenshot 9")
+![Screenshot 10](Screenshots/Screenshot%2010.png "Screenshot 10")
